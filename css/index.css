@@ -1,0 +1,9 @@
+@charset "UTF-8";
+
+:root {
+   --color0: #01a2a280;
+}
+
+header{
+   background-color: var(--color0);
+}

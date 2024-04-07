@@ -3,30 +3,34 @@
 
 <head>
    <meta charset="utf-8">
-   <meta name="viewport" content="width=device-width, initial-scale=1" , shrink-to-fit="no">
-   <title>Bootstrap demo</title>
+   <meta name="viewport" content="width=device-width, initial-scale=1 , shrink-to-fit=no">
    <!-- Bootstrap 5 -->
    <link href="/bootstrap-5/css/bootstrap.min.css" rel="stylesheet">
+   <!-- Styles -->
+   <link rel="stylesheet" href="css/index.css">
    <!-- Font Awesome -->
    <script src="https://kit.fontawesome.com/91cc837c72.js" crossorigin="anonymous"></script>
+   <title>Colégio Infantil Santa Laura</title>
 </head>
 
 <body>
-   <header>
-      <div><img src="img/logo-nome.svg" alt="logotipo do colégio infantil santa laura"></div>
-      <div>
-         <nav>
-            <ul>
+   <header class="container-fluid color0">
+      <nav class="navbar navbar-expand-sm navbar-light">
+         <a href="#" class="navbar-brand">
+            <img src="img/logo-nome.svg" alt="logotipo do colégio infantil santa laura" width="120">
+         </a>
+         <div class="collapse navbar-collapse">
+            <ul class="navbar-nav">
                <li>O Colégio</li>
                <li>Quem Somos</li>
                <li>Programas</li>
                <li>Matrículas</li>
                <li>Contato</li>
             </ul>
+         </div>
 
-            <button>Matrícule-se Agora</button>
-         </nav>
-      </div>
+         <button>Matrícule-se Agora</button>
+      </nav>
    </header>
    <main>
       <section>
@@ -36,14 +40,15 @@
          <div>
             <div><img src="img/logo.svg" alt="logotipo do colégio infantil santa laura"></div>
             <div>
-               <h1><span>Colégio Infantil </span>Santa Laura</h1>
+               <h1 class="h1"><span class="lead">Colégio Infantil </span>Santa Laura</h1>
             </div>
-            <p>Aqui, a educação é a nossa paixão. Vamos crescer e aprender juntos!</p>
+            <p class="h5">Aqui, a educação é a nossa paixão. Vamos crescer e aprender juntos!</p>
          </div>
       </section>
       <section>
          <div>
-            <h2>O Colégio</h2>
+            <h2 class="h2">O Colégio</h2>
+            <p>O Colégio Infantil Santa Laura tem se dedicado a proporcionar um ambiente educacional enriquecedor para crianças em suas fases iniciais de desenvolvimento. Nosso compromisso vai além do ensino, abraçamos cada criança, construindo bases sólidas para um futuro brilhante.</p>
          </div>
          <div>
             <img src="img/Grupo 137.png" alt="Crianças desenhando na sala">
@@ -162,7 +167,7 @@
             </ul>
          </div>
          <div>
-            <ul>
+            <ul class="list-unstyled">
                <p>Redes Socias</p>
                <li><i class="fa-brands fa-square-facebook"></i></li>
                <li><i class="fa-brands fa-square-instagram"></i></li>
@@ -176,8 +181,11 @@
          <p>Colégio Santa Laura - Todos os direitos reservados</p>
       </div>
    </footer>
-
-   <script src="bootstrap-5/js/bootstrap.bundle.min.js"></script>
+   <script src="/bootstrap-5/js/bootstrap.bundle.min.js"></script>
+   <script src="/bootstrap-5/js/bootstrap.min.js"></script>
+   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"></script>
 </body>
 
 </html>

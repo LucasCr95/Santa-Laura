@@ -1,11 +1,43 @@
 @charset "UTF-8";
 
 :root {
-   --color0: #000000;
-   --color1: #FFFFFF;
-   --color2: #0D3E84;
-   --color3: #EE008D;
-   --color4: #01A0A1;
-   --color5: #FDC308;
-   --color6: #8CC745;
+   --color0: #0D3E84;
+   --color1: #EE008D;
+   --color2: #75D0D1;
+   --color3: #FDC308;
+   --color4: #8CC745;
+   --color5: #01A0A1;
+   --color6: ;
+}
+
+.color0 {
+   color: var(--color0);
+}
+
+.color1 {
+   color: var(--color1);
+}
+
+.color2 {
+   color: var(--color2);
+}
+
+.color3 {
+   color: var(--color3);
+}
+
+.color4 {
+   color: var(--color4);
+}
+
+.color5 {
+   color: #01A0A1;
+}
+
+.bg-degrade-header {
+   background-image: linear-gradient(to bottom, var(--color2), var(--color5));
+}
+
+.bg-color2 {
+   background-color: var(--color2);
 }

@@ -7,7 +7,8 @@
    --color3: #FDC308;
    --color4: #8CC745;
    --color5: #01A0A1;
-   --color6: ;
+   --font-garamond: 'EB+Garamond', serif;
+   --font-roboto: 'Roboto', sans-serif;
 }
 
 .color0 {
@@ -34,10 +35,19 @@
    color: #01A0A1;
 }
 
-.bg-degrade-header {
-   background-image: linear-gradient(to bottom, var(--color2), var(--color5));
-}
-
 .bg-color2 {
    background-color: var(--color2);
+}
+
+.font-garamound {
+   font-family: var(--font-garamond);
+}
+
+.font-garamound-600 {
+   font-family: var(--font-garamond);
+   font-weight: 600;
+}
+
+.font-roboto {
+   font-family: var(--font-roboto);
 }

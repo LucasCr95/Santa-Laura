@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 :root {
-   --color0: #0D3E84;
+   --color0: #0d3e84;
    --color1: #EE008D;
    --color2: #75D0D1;
    --color3: #FDC308;
@@ -12,7 +12,7 @@
 }
 
 .color0 {
-   color: var(--color0);
+   color: var(--color0) !important;
 }
 
 .color1 {
@@ -50,4 +50,16 @@
 
 .font-roboto {
    font-family: var(--font-roboto);
+}
+
+.btn-menu-navbar {
+   background-color: var(--color1) !important;
+}
+
+.btn-menu-navbar:hover {
+   background-color: #e2389e !important;
+}
+
+.link-hover-underline:hover {
+   text-decoration: underline;
 }

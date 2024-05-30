@@ -63,3 +63,11 @@
 .link-hover-underline:hover {
    text-decoration: underline;
 }
+
+.card {
+   border: none;
+}
+
+.card-img {
+   border-radius: 0;
+}

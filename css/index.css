@@ -39,6 +39,10 @@
    background-color: var(--color2);
 }
 
+.bg-color4 {
+   background-color: var(--color4);
+}
+
 .font-garamound {
    font-family: var(--font-garamond);
 }
@@ -48,8 +52,19 @@
    font-weight: 600;
 }
 
-.font-roboto {
+.font-roboto-light {
    font-family: var(--font-roboto);
+   font-weight: 200;
+}
+
+.font-roboto-normal {
+   font-family: var(--font-roboto);
+   font-weight: 400;
+}
+
+.font-roboto-bold {
+   font-family: var(--font-roboto);
+   font-weight: 500;
 }
 
 .btn-menu-navbar {

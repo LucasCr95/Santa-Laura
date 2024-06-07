@@ -86,3 +86,7 @@
 .card-img {
    border-radius: 0;
 }
+
+.border-color0 {
+   border: 2px solid var(--color0);
+}
